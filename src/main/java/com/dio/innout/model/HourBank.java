@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 @Builder
 @Entity
+@Audited
 public class HourBank {
 
     @AllArgsConstructor

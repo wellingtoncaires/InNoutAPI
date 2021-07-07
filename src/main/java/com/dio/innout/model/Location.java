@@ -15,6 +15,7 @@ import javax.persistence.ManyToOne;
 @EqualsAndHashCode
 @Builder
 @Entity
+@Audited
 public class Location {
     @Id
     @GeneratedValue

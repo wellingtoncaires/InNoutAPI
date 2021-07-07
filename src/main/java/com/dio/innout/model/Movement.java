@@ -18,6 +18,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 @Builder
 @Entity
+@Audited
 public class Movement {
 
     @AllArgsConstructor

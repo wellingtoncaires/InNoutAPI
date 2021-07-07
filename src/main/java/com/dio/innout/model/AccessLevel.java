@@ -14,6 +14,7 @@ import javax.persistence.Id;
 @EqualsAndHashCode
 @Builder
 @Entity
+@Audited
 public class AccessLevel {
     @Id
     @GeneratedValue
